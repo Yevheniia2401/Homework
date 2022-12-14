@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<nav>
+    <a href="../index.html"><b>Ed Sheeran</b></a>
+    <a href="./about.html"><b>About</b></a>
+    <a href="./gallery.html"><b>Gallery</b></a>
+</nav>
+
+
+<table>
+    <caption>Next Tour</caption>
+    <colgroup>
+        <col style="background: lightgreen">
+        <col style="background: lightblue">
+        <col style="background: lightsalmon">
+    </colgroup>
+    <tr>
+        <th>Date</th>
+        <th>Place</th>
+        <th>Location</th>
+    <tr>
+        <td>MAY
+            06
+            2023
+        </td>
+        <td>AT&T Stadium
+            Khalid, Dylan
+        </td>
+        <td>Arlington
+            TEXAS
+        </td>
+    </tr>
+    <tr>
+        <td>MAY
+            13
+            2023
+        </td>
+        <td>NRG Stadium
+            Khalid, Dylan
+        </td>
+        <td>Houston
+            TEXAS
+        </td>
+    </tr>
+    <tr>
+        <td>MAY
+            20
+            2023
+        </td>
+        <td>Raymond James Stadium
+            Khalid, Dylan
+        </td>
+        <td>Tampa
+            FLORIDA
+        </td>
+    </tr>
+    <tr>
+        <td>MAY
+            27
+            2023
+        </td>
+        <td>Mercedes-Benz Stadium
+            Khalid, Dylan
+        </td>
+        <td>Atlanta
+            GEORGIA
+        </td>
+    </tr>
+    <tr>
+        <td>JUN
+            03
+            2023
+        </td>
+        <td>Lincoln Financial Field
+            Khalid, Dylan
+        </td>
+        <td>Philadelphia
+            PENNSYLVANIA
+        </td>
+    </tr>
+</table>
+<hr>
+
+
+<h2>Select a concert to buy a ticket</h2>
+
+
+<form name="myform" action="javascript:completeAndRedirect();">
+    <label>Gender</label>
+    <select name="Gender">
+        <option value="value1">male</option>
+        <option value="value2" selected>female</option>
+    </select>
+    <p>
+        <label>Name
+            <br>
+            <input type="text" name="name" pattern="[A-Za-z ]{1,32}" placeholder="Enter name" autocomplete="off"
+                   required><br></label>l
+        <label>Number
+            <br>
+            <input type="number" name="number" placeholder="XXX-XXX-XXXX" required><br></label>
+
+        <label>Email:
+            <br>
+            <input type="email" name="email" pattern="[a-z0-9r._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required><br></label>
+
+        <label>Choose date<input type="date"><br></label>
+        <label>Show all tickets
+            <br>
+            <input type="radio" name="Yes" value="Yes"><span>Yes</span><br></label>
+            <input type="radio" name="No" value="No"> <span>No</span><br>
+        <label>Your favorite songs by Ed
+            <br></label>
+        <label>
+            <textarea name="messenger" style="resize: none"></textarea>
+            <br></label>
+        <input type="submit" value="Buy">
+</form>
+<p id="text">
+</p>
+
+
+<footer>
+    <p>
+        Never miss a beat!
+
+        Follow and Subscribe to be one of the first to know the latest news on Ed!
+    </p>
+    <nav>
+        <a href="https://www.facebook.com/EdSheeranMusic/" target="_blank"><img src="../images/facebook-svgrepo-com.svg"
+                                                                                alt="Fb" width="40" height="40"></a>
+        <a href="https://twitter.com/edsheeran/" target="_blank"><img src="../images/twitter-svgrepo-com.svg" alt="Tw"
+                                                                      width="40" height="40"></a>
+        <a href="https://www.instagram.com/teddysphotos/" target="_blank"><img src="../images/instagram-svgrepo-com.svg"
+                                                                               alt="Ins" width="40" height="40"></a>
+    </nav>
+
+</footer>
+<script src="main.js"></script>
+</body>
+</html>
